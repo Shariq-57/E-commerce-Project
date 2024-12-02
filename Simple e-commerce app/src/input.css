@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg {
+  background-color: #e9f0ff;
+}
+
+.hiddens {
+  display: none;
+}
+
+.hide {
+  display: none;
+}
+
+.container {
+  background-color: #e9f0ff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  width: 300px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 20px;
+}
+.div-img img {
+  width: 100%;
+}
+.cercal-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  gap: 5px;
+}
+.cercal-1 {
+  margin: 3px;
+  border-radius: 50%;
+  padding: 10px 10px;
+  background-color: black;
+}
+.cercal-2 {
+  margin: 3px;
+  border-radius: 50%;
+  padding: 10px 10px;
+  background-color: #de98c4;
+}
+.cercal-3 {
+  margin: 3px;
+  border-radius: 50%;
+  padding: 10px 10px;
+  background-color: #96c3c1;
+}
+.cercal-4 {
+  margin: 3px;
+  border-radius: 50%;
+  padding: 10px 10px;
+  background-color: #8c9ee1;
+}
+.cercal-border {
+  border-radius: 50%;
+  display: flex;
+  border: 2px solid black;
+}
+.title h1 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+.title span {
+  margin-top: 50px;
+}
+.price {
+  margin-top: 20px;
+}
+.price .discount {
+  background-color: #e9f0ff;
+  padding: 2px 5px;
+  font-size: small;
+  border-radius: 5px;
+  margin-left: 5px;
+  font-weight: 300;
+}
+.main-price {
+  margin-top: 10px;
+  font-size: medium;
+  color: rgb(66, 64, 64);
+}
+.cart-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cart-box button {
+  margin-top: 15px;
+  border: none;
+  padding: 5px 8px;
+  border-radius: 50px;
+  background-color: #2667ff;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+}

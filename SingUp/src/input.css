@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-image: url("https://images.pexels.com/photos/14644522/pexels-photo-14644522.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main-button {
+  background-color: #ffcc00;
+  transition: 0.3s ease-in-out;
+}
